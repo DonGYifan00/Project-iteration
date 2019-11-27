@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Map.js */
+/*上半部分*/
+#qin_fanhui{
+  display: inline;
+  position: absolute;
+  top:3vw;
+  left:3vw;
+  background-color: rgba(0,0,0,0);
+}
+
+.qin_back{
+  width: 100%;
+  height: 70vw;
+  background:url(https://s2.ax1x.com/2019/11/26/Mx6IZ6.png) ;
+  background-size: cover;  
+}
+
+.qin_back input{
+  width: 60vw;
+  height: 10vw;
+  text-decoration: none;
+  border: none;
+  border-radius: 3vw;
+  margin: 25vw 23vw;
+}
+.qin_back input:focus{
+  outline: none;
+}
+/* 下半部分 */
+.am-tabs-tab-bar-wrap {
+    margin: 0;
+}
+.am-tabs-default-bar-underline {
+    border:none; 
+}
+.am-tabs-default-bar-tab{
+  border-left:0.2vw rgb(146, 146, 146) solid;
+  border-right:0.2vw rgb(146, 146, 146) solid;
+}
+.am-tabs-default-bar-tab-active {
+  color: rgb(158, 3, 3);
+}
+
+
+/* Home.js */
+/* 顶部搜索 */
+#qin_dingwei{
+  width: 9vw;
+  height:9vw;
+  float: left;
+  margin-top: 5vw;
+  margin-left: 1vw;
+  margin-right: -2vw;
+  background-color:rgb(139, 139, 139);
+}
+.qin_city{
+  margin-top: 5vw;
+  float: left;
+  padding: 0;
+  color: white;
+  background-color:rgb(139, 139, 139);
+}
+.am-search-cancel{
+  height: 8vw;
+  line-height: 9vw;
+  color:rgb(219, 219, 219);
+  background-color: rgb(139, 139, 139);
+}
+.am-search{
+  width:70vw;
+  float: right;
+  background-color:rgb(139, 139, 139);
+}
+.am-search-input{
+  border-radius: 5vw;
+}
+/* 轮播图 */
+.slider-decorator-0{
+  display: none;
+}
+/* 中间四个入口 */
+.qin_rukou{
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 100%;
+  height:27vw;
+}
+.qin_rukou img{
+  margin-left: 2vw;
+  width:15vw;
+  height: 15vw;
+}
+.qin_rukou p{
+  margin-bottom: 0;
+}
+/* 地图部分 */
+.qin_map{
+  margin-top: -4vw;
+  width:100%;
+  height: 80vw;
+  border:1px red solid;
+}
+/* 周边热门高校 */
+.qin_hot{
+  width: 100%;
+  height: 35vw;
+  border:1px rgb(94, 92, 207) solid;
+}
+.qin_title{
+  text-align: center;
+  line-height: 10vw;
+  border:1px yellow solid;
+}
+
+/* Reserve.js */
+#qin_reserve{
+  width: 100%;
+  height: 70vw;
+  background: url(./images/qReserve.jpg) ;
+  background-size: cover;  
+}
+.qin_why{
+  margin:4vw 4vw;
+  font-family: monospace; 
+  font-size: 8vw; 
+  margin-bottom: 5vw;
+}
+.qin_w1{
+  background-color: #FF605F;
+  margin-right: 1vw;
+  margin-left: 5vw;
+}
+.qin_w2{
+  background-color: #FFD52E;
+  margin-right: 1vw; 
+}
+.qin_w3{
+  background-color: #49DD8E;
+  margin-right: 1vw; 
+}
+.qin_w4{
+  background-color: #AE99FF;
+}
+.qin_reason{
+  width: 90%;
+  height: 70vw;
+  border-left:1vw rebeccapurple dotted;
+  padding-top: 2vw;
+}
+.qin_reason p{
+  font-size: 4.8vw;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+  line-height: 6.5vw;
+  padding-right: 5vw;
+}
+.qin_r1{
+  color:rgb(10, 113, 121);
+}
+.qin_r2{
+  color: rgb(10, 113, 121);
+}
+.qin_r3{
+  color:rgb(10, 113, 121);
+}
+.qin_r4{
+  color:rgb(10, 113, 121);
+}
+.qin_r5{
+  color:rgb(10, 113, 121);
+}
+
+/* Resultfirst.js */
+.qin_R1{
+  margin-top: 25vw;
+  width: 62%;
+  height: 30vw;
+  border:1vw rgb(9, 167, 146) solid;
+}
+.qin_R1 p{
+  text-align: center;
+  line-height: 15vw;
+  font-weight: bolder;
+  font-size: 6vw;
+  color: rgb(95, 22, 22);
+}
